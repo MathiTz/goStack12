@@ -1,0 +1,43 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  /* flex-direction: row;  PADRÃO */
+  /* ALIGN - VERTICALMENTE || JUSTIFY - HORIZONTALMENTE */
+
+  /* flex-direction: column;  */
+  /* ALIGN - HORIZONTALMENTE || JUSTIFY - VERTICALMENTE */
+
+  /* flex-wrap: wrap; QUEBRA A LINHA */
+  /* align-content: ; QUANDO QUEBRA LINHA VOCÊ PODE SETAR A CONFIGURAÇÃO */
+}
+
+.box {
+  width: 100px;
+  height: 60px;
+  background-color: #f00;
+  margin: 5px;
+  /* flex-grow: 1; ACEITA AUMENTAR PARA TODO O CONTEÚDO */
+  /* flex-shrink: 1; ACEITA SE EXPREMER PARA PODER CCABER NO CONTAINER */
+  /* flex: 1 0 (GROW SHRINK) */
+}
+
+.red {
+  /* FAZ A ORDEM DO ELEMENTO */
+  order: 1;
+}
+
+.green {
+  background-color: #00ff00;
+  order: 2;
+}
+
+.blue {
+  background-color: #0000ff;
+  order: 0;
+}

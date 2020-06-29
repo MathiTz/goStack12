@@ -408,7 +408,7 @@ div.wrapper-content aside.widgets .widget .title a {
   font-size: 12px;
   text-decoration: none;
   position: relative;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 div.wrapper-content aside.widgets .widget .title a::before {

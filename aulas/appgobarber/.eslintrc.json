@@ -23,6 +23,7 @@
   },
   "plugins": ["react", "react-hooks", "@typescript-eslint"],
   "rules": {
+    "camelcase": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [1, {"extensions": [".tsx"]}],
@@ -39,7 +40,8 @@
     "@typescript-eslint/ban-types": "off",
     "react/prop-types": "off",
     "no-unused-expressions": "off",
-    "@typescript-eslint/no-explicit-any": "off"
+    "@typescript-eslint/no-explicit-any": "off",
+    "import/no-duplicates": "off"
   },
   "settings": {
     "import/resolver": {
